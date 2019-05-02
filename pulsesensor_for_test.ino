@@ -5,7 +5,7 @@ bool BeatComplete=false;
 int BPM=0;
 int value=analogRead(0);
 
-#define UpperThreshold 550
+#define UpperThreshold 550                              //définit à partir d'un certain niveau si le signal doit etre pris en compte
 
 void setup() {
   Serial.begin(9600);
